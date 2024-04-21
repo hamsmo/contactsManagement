@@ -1,0 +1,31 @@
+.contactInfo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-block: 30px;
+}
+.contactImg {
+  width: 120px;
+}
+.contactImg img {
+  width: 100%;
+  object-fit: cover;
+}
+.email {
+  color: red;
+}
+.details {
+  font-size: 12px;
+  margin-bottom: 20px !important;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactInfo {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,10 @@
+.form {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .form{
+    width: 70%;
+  }
+}

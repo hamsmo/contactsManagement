@@ -1,0 +1,18 @@
+.title {
+  font-family: 'OpenSans-Bold';
+}
+.letters{
+  text-transform: uppercase;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.letters span{
+  font-family: 'OpenSans-Bold';
+  color: #333;
+  cursor: pointer;
+}
+.activeLetter{
+  text-decoration: underline;
+}
