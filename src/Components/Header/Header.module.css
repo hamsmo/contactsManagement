@@ -1,0 +1,31 @@
+.logo img {
+  cursor: pointer;
+}
+.title {
+  font-family: "OpenSans-Bold";
+  position: relative;
+  display: inline-block;
+}
+.title::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: red;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .searchField{
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.contactCard {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.contactCard:hover {
+  background-color: #eee;
+}
+.contactCardImg {
+  width: 80px;
+}
+.contactCardImg img {
+  width: 100%;
+  object-fit: cover;
+}
+.name {
+  font-family: "OpenSans-Bold";
+}
+.details {
+  color: grey;
+  font-size: 12px;
+}
