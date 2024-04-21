@@ -1,0 +1,4 @@
+export const STORE_CONTACTS = 'STORE_CONTACTS';
+export const EDIT_CONTACT = 'EDIT_CONTACT';
+export const ADD_CONTACT = 'ADD_CONTACT';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
